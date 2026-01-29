@@ -2,24 +2,11 @@
   "currency": "USD",
   "description": "Gpt Oss 120B language model",
   "details": {
-    "contextLength": 131072,
-    "litellm_provider": "cerebras",
-    "max_input_tokens": 131072,
-    "max_output_tokens": 32768,
-    "max_tokens": 32768,
-    "mode": "chat",
     "object": "model",
     "owned_by": "cerebras"
   },
   "display_name": "Gpt Oss 120B",
   "name": "gpt-oss-120b",
-  "payout_price": {
-    "description": "Pricing Per 1M Tokens Input/Output",
-    "input": "0.25",
-    "output": "0.69",
-    "reference": null,
-    "type": "one_million_tokens"
-  },
   "schema": "offering_v1",
   "service_type": "llm",
   "status": "ready",
