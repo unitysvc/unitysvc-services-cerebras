@@ -8,7 +8,7 @@ terms_of_service = "https://cerebras.ai/terms"
 time_created = "2025-01-25T00:00:00Z"
 
 [services_populator]
-command = ['scripts/update_services.py']
+command = 'scripts/update_services.py'
 requirements = ['any-llm-sdk[cerebras]', 'requests', 'unitysvc-services']
 
 [services_populator.envs]
