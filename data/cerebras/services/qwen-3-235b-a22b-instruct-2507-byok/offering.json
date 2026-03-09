@@ -20,6 +20,7 @@
     "Cerebras API": {
       "access_method": "http",
       "base_url": "https://api.cerebras.ai/v1",
+      "api_key": "${ customer_secrets.CEREBRAS_API_KEY }",
       "rate_limits": []
     }
   }
